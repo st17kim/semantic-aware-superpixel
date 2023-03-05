@@ -36,3 +36,12 @@ Superpixel generation
   + You may use different DINO model to generate superpixels. 
     + '8-xx' model can generate better superpixel but may not work with large input image.
     + Generally, '8-xx' is better than '16-xx' and '-base' is better than '-small'.
+
+Precomputed Superpixels
+--------------
+>We provide superpixels generated from PASCAL VOC 2012 (10,582 images) and MS-COCO 2017 (118,287 images) segmentation datasets. 
++ We used DINO-8-base and set tau to 0.3.
++ Open superpixels using ``` from PIL import Image; superpixel = np.array(Image.open("img_name.png"))```. You will get np array size of [height, width] whose value indicate the id of superpixel (ranging from 1 to the number of superpixels). 
++ COCO train 2017 dataset (118,287 images) includes COCO train 2014 (82,783 images).
++ Pascal superpixels: https://drive.google.com/file/d/147Ev_SkHd_M8c6scco336KWFNNV5LlXv/view?usp=sharing
++ COCO superpixels: https://drive.google.com/file/d/1wc-yuhQ2zgd5PRNqBNC-qAEECaL7PN_M/view?usp=sharing
