@@ -3,6 +3,11 @@ AAAI 2023, "Semantic-aware Superpixel for Weakly Supervised Semantic Segmentatio
 -----------------------------------
 ![supercomp](https://user-images.githubusercontent.com/105955670/221941089-693b1595-cac6-44d9-9d91-4da2e0bf0157.png)
 
+Our paper
+----
+Our paper is available.
+You can find out more information at https://doi.org/10.1609/aaai.v37i1.25196
+
 Requirements
 -----------------------------
 Our code requires Tensorflow 2.x
@@ -45,3 +50,5 @@ Precomputed Superpixels
 + COCO train 2017 dataset (118,287 images) includes COCO train 2014 (82,783 images).
 + Pascal superpixels: https://drive.google.com/file/d/147Ev_SkHd_M8c6scco336KWFNNV5LlXv/view?usp=sharing
 + COCO superpixels: https://drive.google.com/file/d/1wc-yuhQ2zgd5PRNqBNC-qAEECaL7PN_M/view?usp=sharing
+
+
